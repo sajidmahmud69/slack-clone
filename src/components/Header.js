@@ -23,7 +23,8 @@ function Header() {
                     Sajid
                 </Name>
                 <UserImage>
-                    <img src = "https://i.imgur.com/6VBx3io.png" />
+                    <img src = "https://i.imgur.com/6VBx3io.png" alt = ""/>
+                    
                 </UserImage>
             </UserContainer>
         </Container>
