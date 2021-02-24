@@ -40,8 +40,9 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative
-
+    position: relative;
+    z-index: 10;
+    box-shadow: inset 0 0 0 1px rgb(104 74 104);
 `
 
 const Main = styled.div`
