@@ -14,4 +14,9 @@ const firebaseApp = firebase.initializeApp(firebaseConfig)
 // firestore is the real time database
 const db = firebaseApp.firestore ();
 
+// enable authentication with Google provider
+const auth = firebase.auth ();
+const provider = new firebase.auth.GoogleAuthProvider();
+
+export {auth, provider}
 export default db;
